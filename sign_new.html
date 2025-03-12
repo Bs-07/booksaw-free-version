@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mallanna&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Rubik:wght@500&&family=Water+Brush&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../public/css/login.css" />
+    <style></style>
+  </head>
+  <body>
+    <section class="login_section">
+      <div class="login_container">
+        <div class="form_div">
+          <a class="logo_box" href="#">
+            <img class="logo" src="../public/images/main-logo.png" alt="logo" />
+          </a>
+          <h1>Create your account</h1>
+          <form class="form_login" action="logProcess" method="post" id="form">
+            <div class="input_box">
+              <label for="email">Email</label>
+              <ion-icon class="icon" name="mail-outline"></ion-icon>
+              <input
+                class="input_form"
+                type="text"
+                name="email"
+                placeholder="Enter your email addresss here"
+              />
+            </div>
+            <div class="input_box">
+              <label for="pwd">Password</label>
+              <ion-icon class="icon" name="key-outline"></ion-icon>
+              <input
+                class="input_form"
+                type="password"
+                name="pwd"
+                placeholder="Enter password"
+              />
+              <!-- <ion-icon class="icon_eye" name="eye-off-outline"></ion-icon> -->
+            </div>
+            <div class="input_box">
+              <label for="pwd">Re-Password</label>
+              <ion-icon class="icon" name="key-outline"></ion-icon>
+              <input
+                class="input_form"
+                type="password"
+                name="pwd"
+                placeholder="Enter password"
+              />
+              <!-- <ion-icon class="icon_eye" name="eye-off-outline"></ion-icon> -->
+            </div>
+            <button class="btn">
+              <span>Login </span>
+              <i class="icon icon-send"></i>
+            </button>
+            <a
+              href="upd.html"
+              style="color: #666; cursor: pointer; font-weight: 700"
+            >
+              Forgot password?
+            </a>
+            <div class="social">
+              <div class="social_box google">
+                <ion-icon class="social_icon" name="logo-google"></ion-icon>
+                Google
+              </div>
+              <div class="social_box apple">
+                <ion-icon class="social_icon" name="logo-apple"></ion-icon>
+                Apple
+              </div>
+            </div>
+            <p>
+              Don't have an account?
+              <a
+                href="upd.html"
+                style="color: #666; cursor: pointer; font-weight: 700"
+              >
+                Sign Up Now
+              </a>
+            </p>
+          </form>
+        </div>
+        <div class="cover_img">
+          <div class="bg_color"></div>
+          <div class="bg_img"></div>
+          <!-- <img src="../public/images/poster/Untitled Project.jpg" alt="" /> -->
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
